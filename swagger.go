@@ -1,14 +1,15 @@
 package echoSwagger
 
 import (
-	"golang.org/x/net/webdav"
 	"html/template"
 	"net/http"
 	"regexp"
 
+	"golang.org/x/net/webdav"
+
+	"github.com/AmirSoleimani/swag"
 	"github.com/labstack/echo"
 	"github.com/swaggo/files"
-	"github.com/swaggo/swag"
 )
 
 // WrapHandler wraps swaggerFiles.Handler and returns echo.HandlerFunc
